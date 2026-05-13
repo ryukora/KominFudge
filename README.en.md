@@ -1,5 +1,9 @@
 <div align="center">
 
+#### BEBASID Menu
+| [BEBAS🕊️ID](https://github.com/bebasid/bebasid/blob/main/README.en.md) | [BEBAS🕊️DNS](https://github.com/bebasid/bebasdns/blob/main/README.en.md) | [BEBAS🕊️IT](https://github.com/bebasid/bebasit/blob/master/README.en.md) | **K🕊️minFudge** |
+|-|-|-|-|
+
 #### Bahasa / Language
 | <img src="https://em-content.zobj.net/thumbs/120/twitter/351/flag-indonesia_1f1ee-1f1e9.png" width="16"/> [Indonesia](README.md) | <img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/> **English** |
 |-|-|
@@ -19,13 +23,12 @@
 
 </div>
 
-<p align="center">
+<div align="center"><p>
 
 <a href="#">
 <!--
 <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2FKominFudge&count_bg=%23222222&title_bg=%23222222&icon=myspace.svg&icon_color=%23FFFFFF&title=WATCHERS+%5BTODAY+%2F+TOTAL%5D&edge_flat=true"/>
 </a>
-
 <br>
 //-->
 
@@ -58,25 +61,25 @@
 <a href="https://saweria.co/bebasid">
     <img alt="Static Badge" src="https://img.shields.io/badge/donate-white?style=for-the-badge&logo=iconjar&logoColor=white&label=Saweria&labelColor=222">
 </a>
-</p>
+</p></div>
 <p align="center"><sup><b>DISCLAIMER</b>: </br><em>Kominfudge is not responsible for any damages caused to your device, do with your own risk.</em></sup></p>
 
 ## About KominFudge
 
-KominFudge is a documentation about internet censorship in Indonesia and how to bypass it, to be able to access Internet freely.
+KominFudge is a documentation about internet censorship in Indonesia and how to bypass it, to be able to access the Internet freely.
 
-This documentation is comprised of three documents:
+This documentation comprises three documents:
 
-- **Guide (beginner)**, which describe how to and software to bypass internet censorship in general, sorted from the easiest up to the hardest, along with KominFudge recommendations.
+- **Guide (beginner)**, which describes how to and software to bypass internet censorship in general, sorted from the easiest to the hardest, along with KominFudge recommendations.
 
-- [**Power User (advanced)**](https://github.com/bebasid/KominFudge/blob/reorganize/Advanced-README.en.md), which describe how internet censorship is implemented in Indonesia in detail and more sophisticated censorship bypass method.
+- [**Power User (advanced)**](https://github.com/bebasid/KominFudge/blob/reorganize/Advanced-README.en.md), which describes how internet censorship is implemented in Indonesia in detail, and a  more sophisticated censorship bypass method.
 
-- [**Findings**](https://github.com/bebasid/KominFudge/blob/reorganize/FINDINGS.md), which documented findings that discovered by us.
+- [**Findings**](https://github.com/bebasid/KominFudge/blob/reorganize/FINDINGS.md), which documented findingt discovered by us.
 
-Please read from start to finish, or see the "Navigation" section to select desired section to read.
+Please read from start to finish, or see the "Navigation" section to select the desired section to read.
 
 > [!CAUTION]  
-> Kominfudge is not responsible for any damages caused to your device, use this information with your own risk.
+> Kominfudge is not responsible for any damages caused to your device; use this information at your own risk.
 
 ### Navigation
 
@@ -113,19 +116,19 @@ VPN: [ProtonVPN](https://protonvpn.com)
 <em>Free and secure.</em>
 
 ## Choosing less-STRICT ISP[🔝](#navigation)
-ISP is your Internet provider, this list will helps you understand more about how Indonesian ISPs [blocking](/sssssssssssssssssssssssssssssssssss.md).
+ISP is your Internet provider; this list will help you understand more about how Indonesian ISPs [blocking](/sssssssssssssssssssssssssssssssssss.md).
 
 ### <ins>IP Transit</ins> 
-<sup><b>To determine what Transit IP that your ISP is using, you can check on https://bgp.tools or https://bgp.he.net</b></sup><br>
+<sup><b>To determine which transit IP your ISP is using, you can check on https://bgp.tools or https://bgp.he.net</b></sup><br>
 
-ISP that using these upstreams will not be able to change DNS in usual way due to port 53 redirection to each Transit IP provider DNS resolvers following the <a href="https://youtu.be/q1706yrzzws?t=18927">National DNS that unveiled during IDNOG 2022.</a><br>
+ISPs that use these upstreams will not be able to change DNS in the usual way due to port 53 redirection to each Transit IP provider DNS resolvers, following the <a href="https://youtu.be/q1706yrzzws?t=18927">National DNS that was unveiled during IDNOG 2022.</a><br>
 | ASN | Name | Blocking using DNS | Note | Example of affected ISP |
 | :---: | :---: | :---: | :---: | :---: |
 | - | - | - | - | - |
 
-<sup style="text-align:center;">If your ISP does not comply with National DNS regulation but uses Transit IP as shown above, you will experience the same blocking and must use encrypted DNS.<br>Or you can use DNS that is not routed towards those Transit IPs if available.</sup><br>
+<sup style="text-align: center;">If your ISP does not comply with National DNS regulation but uses Transit IP as shown above, you will experience the same blocking and must use encrypted DNS.<br>, Or you can use a DNS that is not routed towards those Transit IPs if available.</sup><br>
 
-<b>This IP transit redirects several popular DNS resolvers so you must use less popular DNS resolvers.</b>
+<b>This IP transit redirects several popular DNS resolvers, so you must use less popular DNS resolvers.</b>
 
 | ASN | Name | Blocking using DNS | Blocked DNS | Note | Example of affected ISP |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -134,14 +137,14 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | [AS23947](https://bgp.tools/as/23947) | PT Mora Telematika Indonesia | [Yes](https://github.com/bebasid/KominFudge/assets/115700386/d435da85-2582-46a5-8ade-61eb143554af) | Quad9 | Redirecting Quad9 at Transit IP level as can be seen at [traceroute result.](https://github.com/bebasid/KominFudge/assets/115700386/cd5fce78-20fd-4e0b-ba79-cc50adab4ad3) | PT Queen Network Indonesia |
 
 
-<sup style="text-align:center;">If your ISP does not comply with National DNS regulation but uses Transit IP as shown above, you will experience the same blocking and must use encrypted DNS.<br>Or you can use DNS that is not routed towards those Transit IPs if available.</sup><br>
+<sup style="text-align:center;">If your ISP does not comply with National DNS regulation but uses Transit IP as shown above, you will experience the same blocking and must use encrypted DNS.<br>Or you can use a DNS that is not routed towards those Transit IPs if available.</sup><br>
 
 
 
-<b>For ISPs that using these upstream providers, you must use WARP/VPN, GoodbyeDPI, or GreenTunnel/PowerTunnel.</b>
+<b>For ISPs that use these upstream providers, you must use WARP/VPN, GoodbyeDPI, or GreenTunnel/PowerTunnel.</b>
 | ASN | Name | Blocking using DPI | Note | Example of affected ISP |
 | :---: | :---: | :---: | :---: | :---: |
-| [AS7713](https://bgp.tools/as/7713) | PT Telkom Indonesia | [Yes](https://img001.prntscr.com/file/img001/tszSvllaRfe6S6K5TRLrmg.png) | First ISP that implemented DPI in 2016 (for blocking Netflix) | Several Universities and local ISP that use upstream AS7713 |
+| [AS7713](https://bgp.tools/as/7713) | PT Telkom Indonesia | [Yes](https://img001.prntscr.com/file/img001/tszSvllaRfe6S6K5TRLrmg.png) | First ISP that implemented DPI in 2016 (for blocking Netflix) | Several Universities and local ISPs that use upstream AS7713 |
 | [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | [Yes](https://img001.prntscr.com/file/img001/dP4otLNfSjSFWPU1neVaRg.png) | [DPI Proof](https://github.com/bebasid/KominFudge/assets/115700386/c914196e-1d5f-4aaf-ab86-b9ea174959e9), [Traceroute Proof](https://github.com/bebasid/KominFudge/assets/115700386/bc518070-1d81-4ce0-b768-7de95bdf82a0). CBN DPI is weak. | [Exabytes VPS](https://github.com/bebasid/KominFudge/assets/115700386/c914196e-1d5f-4aaf-ab86-b9ea174959e9) |
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Yes](https://img001.prntscr.com/file/img001/gP7q6CGxRnaDd-Qb54ZLbA.png) | | |
 | [AS55655](https://bgp.tools/as/55655) | PT Saranainsan Mudaselaras (SIMS/MVNET) | [Yes](https://github.com/bebasid/KominFudge/assets/115700386/ec33b986-84d3-4506-8d1d-83170cf5cba1) | | |
@@ -153,7 +156,7 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 
 
 
-<sup style="text-align:center;">If your ISP does not use DPI but using those upstreams, you can use an anti DPI tool to bypass</sup><br>
+<sup style="text-align:center;">If your ISP does not use DPI but uses those upstreams, you can use an anti-DPI tool to bypass</sup><br>
 
 <b>Internet Exchange using DPI middlebox:</b>
 | Name | Using DPI | Example of affected CDN | Note |
@@ -164,8 +167,8 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 
 ##
 > [!NOTE]  
-> Almost all ISPs violate freedom of internet access by implementing the National DNS programme and because of it, users cannot change to other resolvers other than ISP ones. Especially for users who want to use other DNS blocking services such as OpenDNS and NextDNS and because of it, making it not suitable for users who want to implement filter other than TrustPositif which is well-known for its strange blocking policy. <br>But, National DNS implementation varied across ISPs. Some are only redirecting or blocking UDP 53  <i>(Such as FirstMedia)</i>, some are into international connection, and there are some redirecting or blocking TCP 53 <i>(Examples: MyRepublic dan Smartfren)</i>.<br><br>
-> <b>For ISPs that already checked and confirmed as implementing the National DNS, we have added legend on how ISPs implementing National DNS:</b><br><br>
+> Almost all ISPs violate freedom of internet access by implementing the National DNS programme, and because of it, users cannot change to other resolvers other than the ISP ones. Especially for users who want to use other DNS blocking services such as OpenDNS and NextDNS and because of it, making it not suitable for users who want to implement a filter other than TrustPositif, which is well-known for its strange blocking policy. <br>But, National DNS implementation varied across ISPs. Some are only redirecting or blocking UDP 53  <i>(Such as FirstMedia)</i>, some are into international connection, and some are redirecting or blocking TCP 53 <i>(Examples: MyRepublic dan Smartfren)</i>.<br><br>
+> <b>For ISPs that already checked and confirmed as implementing the National DNS, we have added a legend on how ISPs implement the National DNS:</b><br><br>
 >     <b>International</b> = Blocking port 53 towards international connection<br>
 >     <b>Local</b> = Blocking port 53 towards local connection (across Indonesia) within OpenIXP, IIX, CXC, JKT-IX, etc<br>
 >     <b>TCP</b> = Blocking TCP port 53, making Zone Transfer impossible for those using providers with this designation
@@ -174,17 +177,17 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 **Residential ISP**
 | Name | Blocking using DNS | Blocking using DPI | Sending TCP RST to server | Note |
 | :---: | :---: | :---: | :---: | :---: |
-| Indihome | Yes (International, Local) & IPv6 DNS Injection (Out) | Yes | Yes | Telkom's residential offering. Indihome DPI also sending TCP RST to server |
+| Indihome | Yes (International, Local) & IPv6 DNS Injection (Out) | Yes | Yes | Telkom's residential offering. Indihome DPI is  also sending TCP RST to the server |
 | CBN | Yes (Google, OpenDNS, Cloudflare, Quad9) (Including TCP for those servers) | Yes | No |
 | Biznet Home | Yes (International, Local) | No | No | |
 | MyRepublic | Yes (International, Local) | Yes | No | |
 | FirstMedia | Yes (International, Local) | Yes | Yes |
 | Megavision | Yes (International, Local) | No | ? | Other name: StarNET  |
 | Indosat HiFi/MNC Play | Yes (International, Local, TCP) | Yes | No |  |
-| Iconnet PLN | Yes (International, Local) | Yes | Yes | Iconnet DPI also sending TCP RST to server. Two-way DPI blocking. Several DNS such as Google, Cisco, Cloudflare are redirected to ICON DNS and others are blocked |
+| Iconnet PLN | Yes (International, Local) | Yes | Yes | Iconnet DPI also sending TCP RST to server. Two-way DPI blocking. Several DNS, such as Google, Cisco, and Cloudflare, are redirected to ICON DNS, and others are blocked |
 | PT Netciti Persada | Yes (Cloudflare, Google, OpenDNS, Adguard, Quad9) | No | ? | Blocking DoH/DoT, just wow... |
 | Oxygen | Yes (DoH/DoT, Google, Quad9) | Yes | No | Other name: Moratelindo <br /> Blocking Google DoH and DoT with BGP blackholling. Google DNS and Quad 9 IPs are redirected to Moratel servers. Also implementing DPI |
-| Citranet | Yes | Yes/No (Depends on routing) | ? | DPI from Citranet upstream. If routed towards Indosat and some of their upstreams, it will be affected |
+| Citranet | Yes | Yes/No (Depends on routing)? | DPI from Citranet upstream. If routed towards Indosat and some of their upstreams, it will be affected |
 | Padi Net | Yes (International, Local) | No | ? |
 | Fiberstream | Yes (International, Local) | No | ? | Residential ISP of G-MEDIA |
 | Balifiber | Yes | No | ? |
@@ -206,16 +209,16 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 **Corporate ISP**
 | Name | Blocking using DNS | Blocking using DPI | Sending TCP RST to server | Note |
 | :---: | :---: | :---: | :---: | :---: |
-| Astinet | Yes (DNS Injection for International DNS via Transparent Proxy) | Yes | ? | Telkom's corporate offering. Overseas DNS is redirected first to Telkom proxy within TELIN so ACL whitelist for overseas DNS will not work because during query, the query will be read as IP address of Telkom proxy not own IP address. This is very disruptive for corporate users that have overseas server or using custom filtering server such as NextDNS, ControlD, OpenDNS, etc |
+| Astinet | Yes (DNS Injection for International DNS via Transparent Proxy) | Yes | ? | Telkom's corporate offering. Overseas DNS is redirected first to the Telkom proxy within TELIN, so the ACL whitelist for overseas DNS will not work because during the query, the query will be read as the IP address of the Telkom proxy, not the own IP address. This is very disruptive for corporate users who have an overseas server or use a custom filtering server such as NextDNS, ControlD, OpenDNS, etc |
 | Linknet | Yes | No | No | FirstMedia's corporate offering | 
-| Lintasarta | Yes (International, Local, DoH/DoT) | No | No | Implementing National DNS, this provider blocking popular DoH/DoT resolvers by blackhole |
+| Lintasarta | Yes (International, Local, DoH/DoT) | No | No | Implementing National DNS, this provider blocks popular DoH/DoT resolvers by blackholing |
 | Biznet Metronet | Yes (International) | Yes | Yes | aka Biznet Dedicated |
 | PT Metrasat | Yes | Yes | ? |
 | PT Pasifik Satelit Nusantara | Yes | No | ? |
 | PT Artha Telekomindo | Yes | No | ? |
 | PT Hawk Teknologi Solusi | Yes | No | ? |
-| PT Jaringanku Sarana Nusantara | Yes (International, Local, DoH/DoT) | No | ? | Other name: JSN. This provider blocking DoH/DoT by blackholing domain in its DNS and forcing it to its users. DoH/DoT domain in JSN DNS is redirected to `127.0.0.1` and `::1` making it unusable. Solutions are self-hosting own DoH/DoT server or using host file |
-| PT. Infotama Lintas Global | Yes (Out, Local) | No | ? |
+| PT Jaringanku Sarana Nusantara | Yes (International, Local, DoH/DoT) | No |? | Other name: JSN. This provider is locking DoH/DoT by blackholing the domain in its DNS and forcing it on its users. DoH/DoT domain in JSN DNS is redirected to `127.0.0.1` and `::1`, making it unusable. Solutions are self-hosting their own DoH/DoT server or using a host file |
+| PT. Infotama Lintas Global | Yes (Out, Local) | No |? |
 | PT Remala Abadi | Yes | No | No | Other name: Tachyon |
 | PT iForte Global internet | Yes | Yes | No |  |
 | PT Cipta Informatika Cemeriang | Yes | No | ? |
@@ -246,12 +249,12 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | :---: | :---: | :---: | :---: | :---: |
 | Telkomsel / By.U / KartuHalo | Yes (International, Local, TCP) | Yes | Yes | Telkomsel DPI also sending TCP RST to server |
 | XL / Axis / Live On | Yes (International, Local, TCP) | Yes | Yes | XL DPI also sending TCP RST to server | 
-| 3 | Yes (Google, OpenDNS) | Yes | Yes | Three hijacks Google and OpenDNS servers and redirect them to its resolver |
-| Indosat | Yes (Google, OpenDNS) | Yes | No, but throttling connection to blocked sites if Host/SNI header is detected | Starting on 4-5 October 2023, Indosat hijacks Google and OpenDNS servers and redirect them to its resolver 
+| 3 | Yes (Google, OpenDNS) | Yes | Yes | Three hijack Google and OpenDNS servers and redirect them to its resolver |
+| Indosat | Yes (Google, OpenDNS) | Yes | No, but throttling connection to blocked sites if Host/SNI header is detected | Starting on 4-5 October 2023, Indosat hijacks Google and OpenDNS servers and redirects them to its resolver 
 | Smartfren | Yes (International, Local, TCP, DoH/DoT) | Yes | No | Blocking Google DoH/DoT |
 
 ### <ins>Effort level to unblock with DPI</ins>
-How much effort needed to unblock with DPI per-ISP
+How much effort is  needed to unblock with DPI per-ISP
 
 | Name | Effort | Bypass MikroTik & IPTables |
 | :---: | :---: | :---: |
@@ -269,13 +272,13 @@ How much effort needed to unblock with DPI per-ISP
 | PT SaranaInsan Mudaselaras (SIMS) | Low | Possible |
 | iForte | Low | Possible |
 
-**THIS DATA IS NOT COMPLETE, IF YOU WANT TO ADD MORE, PLEASE GIVE FURTHER INFORMATION**
+**THIS DATA IS NOT COMPLETE. IF YOU WANT TO ADD MORE, PLEASE GIVE FURTHER INFORMATION**
 
 <sup><em>Take this with a grain of salt, all ISPs will change their blocking method without notice.</em></sup>
 
 
 ## Choosing the right DNS[🔝](#navigation)
-DNS, a simple way for kominfo to block, but DNS can be [changed!](#how-to-change-dns). 
+DNS is a simple way for Kominfo to block, but DNS can be [changed!](#how-to-change-dns). 
 This is a list of DNS resolvers that can be used instead of blocking resolvers of *Kominfo*.
 
 | Name | Note | IPv4 | IPv4 2 | Alternative Port | IPv6 | IPv6 2 | DoH | DoT |
@@ -310,7 +313,7 @@ This is a list of DNS resolvers that can be used instead of blocking resolvers o
 *These DNS applications can help you in configuring DNS resolvers on your system.*
 
 > ⚠ **ATTENTION** ⚠  
-> If your ISP is also blocking using DPI also use [applications to eliminate DPI](#applications-to-eliminate-dpi).
+> If your ISP is also blocking using DPI, also use [applications to eliminate DPI](#applications-to-eliminate-dpi).
 
 1. [Nebulo](https://nebulo.app) [Android]  
 <em>Application to easily change DNS on Android.</em>
@@ -319,10 +322,10 @@ This is a list of DNS resolvers that can be used instead of blocking resolvers o
 <em>Application to change DNS and configure dnscrypt on iOS.</em>
 
 3. [DNSCrypt](https://dnscrypt.info) [Windows,macOS,Linux]  
-<em>Selfhost DNS that can do forwarding to DNSCrypt & DNS over HTTPS servers.</em>
+<em> Self-host DNS that can do forwarding to DNSCrypt & DNS over HTTPS servers.</em>
 
 4. [SimpleDNSCrypt](https://simplednscrypt.org) [Windows]  
-<em>An easy to use graphical DNSCrypt client.</em>
+<em>An easy-to-use graphical DNSCrypt client.</em>
 
 5. [DNS Profile Creator](https://dns.notjakob.com/tool.html) [Browser]  
 <em>Easily create Apple mobileconfig.</em>
@@ -337,10 +340,10 @@ This is a list of DNS resolvers that can be used instead of blocking resolvers o
 <em>Application to change DNS on Android.</em>
 
 9. [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) [Windows, macOS, Linux]  
-<em>Selfhost DNS with integrated adblock, encrypted upstream and downstream.</em>
+<em> Self-host DNS with integrated AdBlock, encrypted upstream and downstream.</em>
 
 10. [Stubby](https://github.com/getdnsapi/stubby) [Windows, macOS, Linux]  
-<em>Selfhost DNS that can do forwarding to DNS over TLS server.</em>
+<em> Self-hosted DNS that can do forwarding to a DNS over TLS server.</em>
 
 11. [InviZible](https://github.com/Gedsh/InviZible) [Android]  
 <em>An Android application for DNS and Tor.</em>
@@ -382,12 +385,12 @@ This is a list of DNS resolvers that can be used instead of blocking resolvers o
 ### <ins>Linux</ins>
 1. Open **Terminal**  
 2. Type the command `nano /etc/resolv.conf` to edit `/etc/resolv.conf`.  
-3. Change the file content into something like this (replace `<dns hostname>` into one of the DNS hostname [listed here](#choosing-the-right-dns)).
+3. Change the file content into something like this (replace `<dns hostname>` with one of the DNS hostname [listed here](#choosing-the-right-dns)).
 ```
 nameserver <dns hostname>
 nameserver <dns hostname>
 ```
-Note: Some components that installed on Linux distribution (like NetworkManager) may change the content of `/etc/resolv.conf` without notice, to prevent this you can type `chattr +i /etc/resolv.conf` after editing the file. If you want to change the content of `/etc/resolv.conf` again, you can type `chattr -i /etc/resolv.conf`.
+Note: Some components that are installed on Linux distributions (like NetworkManager) may change the content of `/etc/resolv.conf` without notice. To prevent this, you can type `chattr +i /etc/resolv.conf` after editing the file. If you want to change the content of `/etc/resolv.conf` again, you can type `chattr -i /etc/resolv.conf`.
 
 ### <ins>Browser</ins>
 
@@ -401,10 +404,10 @@ Note: Some components that installed on Linux distribution (like NetworkManager)
 
 #### <ins><b>How to determine if the DNS is properly configured?</b></ins>  
 Go to [DNSLeakTest](https://dnsleaktest.com) or [BrowserLeaks](https://browserleaks.com/dns) for testing.
-If the ISP DNS being shown instead of one you have already set, you can download [DNSCrypt](https://dnscrypt.info) or [SimpleDNSCrypt](https://simplednscrypt.org).
+If the ISP DNS is being shown instead of one you have already set, you can download [DNSCrypt](https://dnscrypt.info) or [SimpleDNSCrypt](https://simplednscrypt.org).
 
 ## Applications to eliminate DPI[🔝](#navigation)
-Now, many [ISPs](#choosing-less-strict-isp) are using Deep Packet Inspection as blocking method.
+Now, many [ISPs](#choosing-less-strict-isp) are using Deep Packet Inspection as a blocking method.
 
 You can eliminate the DPI with these applications:
 
@@ -412,7 +415,7 @@ You can eliminate the DPI with these applications:
 > Do not forget to change [DNS](#dns-applications) first or using [Hosts file](#list-of-hosts-file) if your [ISP](#choosing-less-strict-isp) is also using DNS for blocking.
 
 > ℹ️ **Info**  
-> We also providing config for application and ISP in [this folder](/dpi-circumvention-config).
+> We are also providing config for the application and ISP in [this folder](/dpi-circumvention-config).
 
 
 1. [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) [Windows]  
@@ -462,7 +465,7 @@ sudo iptables -A INPUT -p tcp -m string --string "Location: http://lamanlabuh.ad
 sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL RST,ACK -j DROP
 ```
 
-*Use the firewall-cmd one for Linux distribution that using firewalld, like Fedora and OpenSUSE in terminal. Note that those commands will not work if ISP is also sending TCP RST to server (List of ISP can be seen in Sending TCP RST to server column on above table).*
+*Use the firewall-cmd one for Linux distributions that use firewalld, like Fedora and OpenSUSE, in the terminal. Note that those commands will not work if the ISP is also sending TCP RST to the server (List of ISPs can be seen in the Sending TCP RST to server column on the above table).*
 
 ### Trick to bypass DPI using router[🔝](#navigation)
 
@@ -473,8 +476,8 @@ Follow this tutorial https://github.com/bebasid/bebasit/blob/master/docs/openwrt
 Follow this tutorial https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.en.md
 
 ## List of hosts file[🔝](#navigation) 
-For some users, they will prefer this way
-If you prefer to use hosts file, here the list:
+Some users, they will prefer this way
+If you prefer to use the hosts file, here is the list:
 
 | List | Alternative |
 | :---: | :---: |
@@ -493,14 +496,14 @@ So, you have the file... now what?
 ### On Windows
 1. Copy the text inside the hosts file that you have chosen before.
 2. Open File Explorer and go to `C:\Windows\System32\drivers\etc`.  
-3. Paste text to **hosts** file.
+3. Paste text to the **hosts** file.
 
 ### On Android
 
 #### ROOT:
 1. Copy the text inside the hosts file that you have chosen before.  
 2. Open File Explorer and go to `/system/etc`.  
-3. Paste text to **hosts** file.
+3. Paste text to the **hosts** file.
 
 #### NON-ROOT:
 1. Copy the text inside the hosts file that you have chosen before.
@@ -509,7 +512,7 @@ So, you have the file... now what?
 4. Tap **Select Host File** or **Import HOSTS file** and choose the file that you have created before.
 
 ## Choosing secure VPN[🔝](#navigation)
-Ah VPN, the easiest way to bypass the block if any of above methods do not work, *But* do not download insecure and untrustworthy VPN!
+Ah, VPN, the easiest way to bypass the block if any of the above methods do not work, *But* do not download an insecure and untrustworthy VPN!
 Take a look at this list of secure VPN that you can use instead of untrustworthy VPN:
 
 | Name | Positive | Negative | Server |
@@ -522,7 +525,7 @@ Take a look at this list of secure VPN that you can use instead of untrustworthy
 | [OVPN](https://ovpn.com) | **Secure** | Paid | 102 |
 
 ### VPN for Advanced Users[🔝](#navigation)
-VPN in this section needs configuration, if you just want a Out of the box VPN, please ignore this.
+VPN in this section needs configuration; if you just want an out-of-the-box VPN, please ignore this.
 
 | Name | Description |
 | :---: | :---: |
@@ -533,7 +536,7 @@ VPN in this section needs configuration, if you just want a Out of the box VPN, 
 ## Tor Applications[🔝](#navigation)
 And, this is the most extreme part, using Tor.
 
-1. [Tor Browser](https://www.torproject.org) [Windows,macOS,Linux,Android]  
+1. [Tor Browser](https://www.torproject.org) [Windows,macOS, Linux, Android]  
 <em>Official browser of Tor Project.</em>
 
 2. [Orbot](https://guardianproject.info/apps/org.torproject.android) [Android]  
