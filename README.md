@@ -63,7 +63,7 @@
     <img alt="Static Badge" src="https://img.shields.io/badge/donasi-white?style=for-the-badge&logo=iconjar&logoColor=white&label=Saweria&labelColor=222">
 </a>
 </p></div>
-<p align="center"><sup><b>DISCLAIMER</b>: </br><em>KominFudge tidak bertanggung jawab atas kerusakan perangkat anda, ambil dengan risiko anda sendiri.</em></sup></p>
+<p align="center"><sup><b>DISCLAIMER</b>: </br><em>KominFudge tidak bertanggung jawab atas kerusakan perangkat Anda. Ambil dengan risiko Anda sendiri.</em></sup></p>
 
 ## Tentang KominFudge
 
@@ -71,16 +71,16 @@ KominFudge adalah sebuah dokumentasi tentang penyensoran Internet di Indonesia d
 
 Dokumentasi ini terdiri atas tiga dokumen yaitu:
 
-- **Panduan (pemula)**, yang menjelaskan cara dan aplikasi untuk menembus penyensoran Internet pada umumnya, diurut dari cara termudah hingga tersulit, serta rekomendasi dari KominFudge.
+- **Panduan (pemula)** yang menjelaskan cara dan aplikasi untuk menembus penyensoran Internet pada umumnya, diurutkan dari cara termudah hingga tersulit, serta rekomendasi dari KominFudge.
 
 - [**Sumber daya (mahir)**](https://github.com/bebasid/KominFudge/blob/reorganize/Advanced-README.md), yang menjelaskan bagaimana cara penyensoran Internet di Indonesia bekerja secara rinci dan metode menembus penyensoran yang lebih rumit.
 
 - [**Penemuan**](https://github.com/bebasid/KominFudge/blob/reorganize/FINDINGS.md), yang mendokumentasikan penemuan yang kita temui
 
-Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih bagian tertentu yang ingin dibaca.
+Silakan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih bagian tertentu yang ingin dibaca.
 
 > [!CAUTION]  
-> KominFudge tidak bertanggung jawab atas kerusakan perangkat Anda, gunakan informasi yang diberikan dengan risiko Anda sendiri.
+> KominFudge tidak bertanggung jawab atas kerusakan perangkat Anda. Gunakan informasi yang diberikan dengan risiko Anda sendiri.
 
 ## Daftar Isi
 
@@ -99,25 +99,25 @@ Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih
   - [VPN untuk para Pengguna Tingkat Lanjut](#vpn-untuk-para-pengguna-tingkat-lanjut)
 - [Jenis Aplikasi Tor](#jenis-aplikasi-tor)
 
-Proyek ini tiada tanpa kontribusi [yang tidak termasuk disini](/kredit.md).  
-*Jika mau bergabung kontribusi, lihat dari [sini](/CONTRIBUTING.md).*
+Proyek ini tiada tanpa kontribusi [yang tidak termasuk di sini](/kredit.md).  
+*Jika mau bergabung sebagai kontributor, lihat [sini](/CONTRIBUTING.md).*
 
 ## Pilihan Tertinggi[🔝](#daftar-isi)
 
 DNS: [1.1.1.1](https://1.1.1.1)  
-<em>DNS yang intuitif dan senang untuk dipakai.</em>  
+<em>DNS yang intuitif dan senang dipakai.</em>  
 
 DPI: [PowerTunnel](https://github.com/krlvm/PowerTunnel)  
 <em>Intuitif dan Open Source.</em>  
 
 Filehost: [bebasid](https://bebasid.com)  
-<em>Mempunyai hosts file yang banyak isi pada tersebut.</em>  
+<em>Mempunyai hosts file yang banyak diisi pada tersebut.</em>  
 
 VPN: [ProtonVPN](https://protonvpn.com)  
 <em>Gratis dan Aman.</em>
 
 ## Memilih ISP yang tidak *ketat*[🔝](#daftar-isi)
-ISP adalah provider Internet, daftar isi ini akan membuat lebih tau bagaimana jenis ISP Indonesia [memblokir](/sssssssssssssssssssssssssssssssssss.md).
+ISP adalah provider internet. Daftar isi ini akan membuat lebih tahu bagaimana jenis ISP Indonesia [memblokir](/sssssssssssssssssssssssssssssssssss.md).
 
 ### <ins>IP Transit</ins> 
 <sup><b>Untuk mengecek IP Transit apa yang ISP gunakan, silahkan check di https://bgp.tools atau https://bgp.he.net</b>.</sup><br>
@@ -133,7 +133,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 
 | ASN | Nama | Pemblokiran menggunakan DNS | DNS yang diblokir | Catatan | Contoh ISP yang kena |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta| [Ya](https://github.com/bebasid/KominFudge/assets/115700386/91cf9077-fb59-4116-81fa-97ff4feda561) | Semua DNS yang lewat IP Transit Lintasarta AS4800. [Provider ini juga memblokir DoH/DoT untuk client IP Transit nya](https://github.com/user-attachments/assets/917cbce0-46a5-4ce5-bbe1-03e3ee60b3c6) | [Bukti Pembelokan](https://github.com/bebasid/KominFudge/assets/115700386/91cf9077-fb59-4116-81fa-97ff4feda561) | Trisula, Netciti |
+| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta| [Ya](https://github.com/bebasid/KominFudge/assets/115700386/91cf9077-fb59-4116-81fa-97ff4feda561) | Semua DNS yang lewat IP transit Lintasarta AS4800. [Provider ini juga memblokir DoH/DoT untuk client IP Transit nya](https://github.com/user-attachments/assets/917cbce0-46a5-4ce5-bbe1-03e3ee60b3c6) | [Bukti Pembelokan](https://github.com/bebasid/KominFudge/assets/115700386/91cf9077-fb59-4116-81fa-97ff4feda561) | Trisula, Netciti |
 | [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Ya](https://cdn.bebasid.com/KominFudge/jlm-dnsn.png) | Cloudflare 1.1.1.1, Google, OpenDNS | [Bukti Pembelokan](https://cdn.bebasid.com/KominFudge/jlm-dnsn-bukti.png) | PT Hyperindo Media Perkasa |
 | [AS23947](https://bgp.tools/as/23947) | PT Mora Telematika Indonesia | [Ya](https://github.com/bebasid/KominFudge/assets/115700386/d435da85-2582-46a5-8ade-61eb143554af) | Quad9 | Quad9 dibelokin di level IP Transit seperti yang bisa dilihat di [hasil traceroute.](https://github.com/bebasid/KominFudge/assets/115700386/cd5fce78-20fd-4e0b-ba79-cc50adab4ad3) | PT Queen Network Indonesia |
 
@@ -157,7 +157,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 
 
 
-<sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan alat anti DPI untuk melewatinya.</sup><br>
+<sup style="text-align:center;">Jika ISP Anda tidak menggunakan DPI tetapi menggunakan upstream di atas, silakan gunakan alat anti-DPI untuk melewatinya.</sup><br>
 
 <b>Internet Exchange yang memakai middlebox DPI:</b>
 | Nama | Menggunakan DPI | CDN yang terkena dampak | Catatan |
@@ -168,7 +168,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 
 ##
 > [!NOTE]  
-> Hampir semua ISP melanggar kebebasan dengan mengikuti DNS Nasional sehingga pengguna tidak dapat mengganti DNS atau mengecek DNS server selain punya ISP. Hal ini merugikan bagi pengguna yang ingin memakai layanan pemblokiran DNS lain misalkan OpenDNS dan NextDNS sehingga sangat tidak cocok digunakan untuk pengguna atau orang tua yang ingin menggunakan filter selain TrustPositif yang sering memblokir asal-asalan.<br>Namun, implementasi DNS Nasional tersebut berbeda beda di tiap ISP. Ada yang hanya membelokan atau memblokir UDP 53 <i>(Contohnya FirstMedia)</i>, ada yang hanya ke arah internasional, adapun yang juga ikut memblokir TCP 53 <i>(Contoh: MyRepublic dan Smartfren)</i>.<br><br>
+> Hampir semua ISP melanggar kebebasan dengan mengikuti DNS nasional sehingga pengguna tidak dapat mengganti DNS atau mengecek DNS server selain punya ISP. Hal ini merugikan pengguna yang ingin memakai layanan pemblokiran DNS lain, misalnya OpenDNS dan NextDNS, sehingga sangat tidak cocok digunakan untuk pengguna atau orang tua yang ingin menggunakan filter selain TrustPositif yang sering memblokir asal-asalan.<br>Namun, implementasi DNS nasional tersebut berbeda-beda di tiap ISP. Ada yang hanya membelokan atau memblokir UDP 53 <i>(Contohnya FirstMedia)</i>, ada yang hanya ke arah internasional, adapun yang juga ikut memblokir TCP 53 <i>(Contoh: MyRepublic dan Smartfren)</i>.<br><br>
 > <b>Untuk ISP yang telah diperiksa dan dikonfirmasi mengikuti DNS Nasional, kami telah menambah legenda bagaimana ISP mengikuti DNS Nasional:</b><br><br>
 >     <b>International</b> = Memblokir port 53 menuju internasional<br>
 >     <b>Local</b> = Memblokir port 53 menuju lokal (Sesama Indonesia) di OpenIXP, IIX, CXC, JKT-IX, dan sebagainya<br>
@@ -187,8 +187,8 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | Indosat HiFi/MNC Play | Ya (International, Local, TCP) | Ya | Tidak |  |
 | Iconnet PLN | Ya (International, Local) | Ya | Ya | DPI Iconnet juga mengirim TCP RST ke server. Pemblokiran DPI 2 arah. Ikut DNS Nasional, Google, Cisco, Cloudflare, dkk belok ke DNS ICON dan selain itu diblokir |
 | PT Netciti Persada | Ya (Cloudflare, Google, OpenDNS, Adguard, Quad9). Blokir DoH/DoT | Tidak | ? | Provider gila blokir DoH, buka cabang di Tiongkok aja noh wkwk |
-| Oxygen | Ya (DoH/DoT, Google, Quad9) | Ya | Tidak | Nama lain: Moratelindo <br /> DoH dan DoT punya Google diblokir menggunakan teknik BGP Blackholling. IP DNS Google dan Quad9 dibelokin menggunakan metode route hijacking ke server Moratel sehingga tidak dapat digunakan. Provider ini juga menerapkan DPI |
-| Citranet | Ya | Ya/Tidak (Tergantung routing) | ? | DPI sesuai dengan upstream Citranet. Jika lewat Indosat dan beberapa upstream mereka, maka dijamin kena |
+| Oxygen | Ya (DoH/DoT, Google, Quad9) | Ya | Tidak | Nama lain: Moratelindo <br /> DoH dan DoT punya Google diblokir menggunakan teknik BGP Blackholing. IP DNS Google dan Quad9 dibelokin menggunakan metode route hijacking ke server Moratel sehingga tidak dapat digunakan. Provider ini juga menerapkan DPI |
+| Citranet | Ya | Ya/Tidak (Tergantung routing) | ? DPI sesuai dengan upstream Citranet. Jika lewat Indosat dan beberapa upstream mereka, maka dijamin kena |
 | Padi Net | Ya (International, Local) | Tidak | ? |
 | Fiberstream | Ya (International, Local) | Tidak | ? | ISP Rumahan punya G-MEDIA |
 | Balifiber | Ya | Tidak | ? |
@@ -210,7 +210,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 **ISP Kantor:**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
 | :---: | :---: | :---: | :---: | :---: |
-| Telkom Astinet | Ya (DNS Injection for International DNS via Transparent Proxy) | Ya | ? | ISP dari Telkom untuk kantor. DNS luar negeri dibelokan dulu request nya ke proxy Telkom yang berada di TELIN sehingga whitelist ACL untuk DNS luar negeri tidak akan berfungsi karena pas kita kueri server ke luar, yang terbaca di server DNS luar adalah IP dari proxy Telkom karena kita kueri sebagai proxy Telkom bukan kita sendiri. Ini sangat menggangu bagi pengguna korporat yang mempunyai server di luar atau menggunakan server custom filtering seperti NextDNS, ControlD, OpenDNS, dan sebagainya dikarenakan yang terbaca adalah IP dari server proxy Telkom daripada IP usernya |
+| Telkom Astinet | Ya (DNS Injection for International DNS via Transparent Proxy) | Ya | ? | ISP dari Telkom untuk kantor. DNS luar negeri dibelokan dulu request-nya ke proxy Telkom yang berada di TELIN, sehingga whitelist ACL untuk DNS luar negeri tidak akan berfungsi karena pas kita kueri server ke luar, yang terbaca di server DNS luar adalah IP dari proxy Telkom karena kita kueri sebagai proxy Telkom, bukan kita sendiri. Ini sangat menggangu bagi pengguna korporat yang mempunyai server di luar atau menggunakan server custom filtering seperti NextDNS, ControlD, OpenDNS, dan sebagainya dikarenakan yang terbaca adalah IP dari server proxy Telkom daripada IP usernya |
 | Linknet | Ya | Tidak | Tidak | ISP dari Firstmedia untuk kantor |
 | Lintasarta | Ya (International, Local, DoH/DoT) | Tidak | Tidak | Ikut DNS Nasional, Provider ini memblokir DoH/DoT populer dengan teknik blackhole |
 | Biznet Metronet | Ya (International) | Tidak | Tidak | aka Biznet Dedicated |
@@ -218,7 +218,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | PT Pasifik Satelit Nusantara | Ya | Tidak | ? |
 | PT Artha Telekomindo | Ya | Tidak | ? |
 | PT Hawk Teknologi Solusi | Ya | Tidak | ? |
-| PT Jaringanku Sarana Nusantara | Ya (International, Local, DoH/DoT) Provider ini memblokir DoH/DoT | Tidak | ? | Nama lain: JSN. Provider ini memblokir DoH/DoT dengan memblackhole domain di DNS nya yang dipaksakan ke usernya. Domain DoH/DoT di DNS JSN dijadikan `127.0.0.1` dan `::1` sehingga tidak bisa terkoneksi. Solusinya ialah selfhost server DoH/DoT sendiri  atau memakai metode host file. |
+| PT Jaringanku Sarana Nusantara | Ya (International, Local, DoH/DoT) Provider ini memblokir DoH/DoT | Tidak | ? | Nama lain: JSN. Provider ini memblokir DoH/DoT dengan memblokir domain di DNS-nya yang dipaksakan ke usernya. Domain DoH/DoT di DNS JSN dijadikan `127.0.0.1` dan `::1`, sehingga tidak bisa terkoneksi. Solusinya ialah selfhost server DoH/DoT sendiri  atau memakai metode host file. |
 | PT. Infotama Lintas Global | Ya (International, Local) | Tidak | ? |
 | PT Remala Abadi | Ya | Tidak | Tidak | Nama lain: Tachyon |
 | PT iForte Global internet | Ya | Ya | Tidak | Implementasi DPI lagi, provider sedeng  |
@@ -228,7 +228,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | PT Artorius Telemetri Sentosa | Ya | Tidak | ? |
 | D-NET | Ya (Google, OpenDNS, Cloudflare, Quad9) (Including TCP for those servers) | Tidak | ? | Nama lain: PT Core Mediatech <br />Hanya membelokan DNS Google, Cloudflare, dan Quad9 |
 | PT Sumber Koneksi Indotelematika | Ya | Tidak | ? |
-| ProNET | Ya | Ya/Tidak (Tergantung Routing) | Ya | Nama lain: PT Trisari Data Indonesia<br />Beberapa DNS Publik seperti Cloudflare, Alibaba DNS, dan beberapa DNS Indonesia lokal diblokir.  |
+| ProNET | Ya | Ya/Tidak (Tergantung Routing) | Ya | Nama lain: PT Trisari Data Indonesia<br />Beberapa DNS publik seperti Cloudflare, Alibaba DNS, dan beberapa DNS Indonesia lokal diblokir.  |
 | PT Media Jaringan Telekomunikasi | Ya | Tidak | ? |
 | PT Sekawan Global Komunika | Ya | Tidak | ? |
 | PT INFORMASI NUSANTARA TEKNOLOGI | Ya | Tidak | ? |
@@ -275,7 +275,7 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 
 **DATA INI BELUM DILENGKAPI. JIKA BERHARAP UNTUK DILENGKAPKAN, SILAKAN BERI INFORMASI TERLEBIH LANJUT.**
 
-<sup><em>Ambilkan semua dengan sedikit garam, semua ISP akan mengganti dengan cara pemblokirannya.</em></sup>
+<sup><em>Ambilkan semua dengan sedikit garam. Semua ISP akan mengganti cara pemblokirannya.</em></sup>
 
 
 ## Cara memilih DNS yang tepat[🔝](#daftar-isi)
@@ -284,7 +284,7 @@ Daftar isi server DNS untuk menggantikan server blokir punya *Kominfo*.
 
 | Nama | Catatan | IPv4 | IPv4 2 | Port | IPv6 | IPv6 2 | DoH | DoT |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |  :---: |  :---: |
-| ⭐ [BebasDNS Default](https://github.com/bebasid/bebasdns/tree/main?tab=readme-ov-file#dns-bawaan-default) | Layanan DNS oleh bebasid/KINI, [memblokir iklan dan *malware*](https://github.com/bebasid/bebasdns/tree/main?tab=readme-ov-file#daftar-blokir-dns:~:text=Blocklists%20%2D%20Untuk%20DNS%20Default) | - | - | - | - | - | [`https://dns.bebasid.com/dns-query`](https://dns.bebasid.com/dns-query) | `dns.bebasid.com` |
+| ⭐ [BebasDNS Default](https://github.com/bebasid/bebasdns/tree/main?.ab=readme-ov-file#dns-bawaan-default) | Layanan DNS oleh bebasid/KINI, [memblokir iklan dan *malware*](https://github.com/bebasid/bebasdns/tree/main?tab=readme-ov-file#daftar-blokir-dns:~:text=Blocklists%20%2D%20Untuk%20DNS%20Default) | - | - | - | - | - | [`https://dns.bebasid.com/dns-query`](https://dns.bebasid.com/dns-query) | `dns.bebasid.com` |
 | [BebasDNS Malware](https://github.com/bebasid/bebasdns/tree/main?tab=readme-ov-file#dns-antivirus-malware) | [Memblokir *malware*](https://github.com/bebasid/bebasdns/tree/main?tab=readme-ov-file#daftar-blokir-dns:~:text=Blocklists%20%2D%20Untuk%20DNS%20Antivirus%20(Malware)) | - | - | - | - | - | [`https://antivirus.bebasid.com/dns-query`](https://antivirus.bebasid.com/dns-query) | `antivirus.bebasid.com` |
 | [BebasDNS Unfiltered](https://github.com/bebasid/bebasdns/tree/main?tab=readme-ov-file#dns-tanpa-disaring-unfiltered) | [Tanpa pemblokiran apapun](https://github.com/bebasid/bebasdns/tree/main?tab=readme-ov-file#dns-tanpa-disaring-unfiltered:~:text=Khusus%20tanpa%20pemblokiran%20perangkat%20lunak%20jahat%20(malware)%2C%20tanpa%20blokir%20pelacakan%20(tracking)%20dan%20tidak%20memblokir%20iklan%20(ads).) | - | - | - | - | - | [`https://dns.bebasid.com/unfiltered`](https://dns.bebasid.com/unfiltered) | `unfiltered.dns.bebasid.com` |
 | [BebasDNS Family](https://github.com/bebasid/bebasdns/tree/main?tab=readme-ov-file#family-default) | [Memblokir *malware* & situs dewasa](https://github.com/bebasid/bebasdns/tree/main?tab=readme-ov-file#daftar-blokir-dns:~:text=Blocklists%20%2D%20Untuk%20DNS%20Internet%20Sehat%20(Family)) | - | - | - | - | - | [`https://internetsehat.bebasid.com/dns-query`](https://internetsehat.bebasid.com/dns-query) | `internetsehat.dns.bebasid.com` |
@@ -311,10 +311,10 @@ Daftar isi server DNS untuk menggantikan server blokir punya *Kominfo*.
 <sup>Daftar isi ini lebih lengkap dan bisa dilihat dari [KB AdGuard](https://adguard-dns.io/kb/general/dns-providers/) dan [Curl Wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS). Dan bisa juga membuat sendiri dengan menggunakan [Cloudflare Workers](https://github.com/tina-hello/doh-cf-workers) atau [server sendiri dengan memakai PHP](https://github.com/NotMikeDEV/DoH).</sup>
 
 ## Jenis Aplikasi DNS[🔝](#daftar-isi)
-*Aplikasi DNS ini bisa buat memakai DNS lebih senang.*
+*Aplikasi DNS ini bisa membuat pemakaian DNS lebih mudah.*
 
 > ⚠ **PERHATIAN** ⚠  
-> Apabila ISP juga melakukan pemblokiran menggunakan DPI, hanya bisa gunakan [Jenis Aplikasi untuk menghilangkan DPI](#jenis-aplikasi-untuk-menghilangkan-dpi).
+> Apabila ISP juga melakukan pemblokiran menggunakan DPI, hanya bisa digunakan [Jenis Aplikasi untuk menghilangkan DPI](#jenis-aplikasi-untuk-menghilangkan-dpi).
 
 1. [Nebulo](https://nebulo.app) [Android]  
 <em>Aplikasi untuk mengganti DNS di Android dengan mudah.</em>  
@@ -360,7 +360,7 @@ Daftar isi server DNS untuk menggantikan server blokir punya *Kominfo*.
 
 1. **Settings** > **Wi-Fi** > ***wifi***  
 2. Ketuk ikon `(i)`  
-3. Ganti IP Address menjadikan **Static** dan masukkan [hostname dns](#cara-memilih-dns-yang-tepat) di kolom DNS tersebut.
+3. Ganti IP Address menjadi **Static** dan masukkan [hostname dns](#cara-memilih-dns-yang-tepat) di kolom DNS tersebut.
 
 ### <ins>Windows</ins>
 
@@ -386,29 +386,29 @@ Daftar isi server DNS untuk menggantikan server blokir punya *Kominfo*.
 ### <ins>Linux</ins>
 1. Buka **Terminal**.  
 2. Jalankan pake perintah `nano /etc/resolv.conf` untuk mengedit file `/etc/resolv.conf`.  
-3. Ubah isi file menjadi seperti berikut (gantikan `<hostname dns>` menjadi salah satu [hostname dns disini](#cara-memilih-dns-yang-tepat)).
+3. Ubah isi file menjadi seperti berikut (gantikan `<hostname dns>` dengan salah satu [hostname dns di sini](#cara-memilih-dns-yang-tepat)).
 ```
 nameserver <hostname dns>
 nameserver <hostname dns>
 ```
-Catatan: Ada beberapa komponen yang mungkin terpasang pada distro Linux (seperti *NetworkManager*) dapat mengubah isi file `/etc/resolv.conf` tanpa disadari, untuk mencegah hal tersebut dapat mengetik perintah `chattr +i /etc/resolv.conf` setelah selesai mengubah file tersebut. Apabila ingin mengubah isi file `/etc/resolv.conf` kembali, dapat mengetik perintah `chattr -i /etc/resolv.conf` tersebut.
+Catatan: Ada beberapa komponen yang mungkin terpasang pada distro Linux (seperti *NetworkManager*) yang dapat mengubah isi file `/etc/resolv.conf` tanpa disadari. Untuk mencegah hal tersebut, dapat mengetik perintah `chattr +i /etc/resolv.conf` setelah selesai mengubah file tersebut. Apabila ingin mengubah isi file `/etc/resolv.conf` kembali, dapat mengetik perintah `chattr -i /etc/resolv.conf` tersebut.
 
 ### <ins>Browser</ins>
 
 #### Browser berbasis Chromium:
 1. **Settings** > **Privacy and Security**  
-2. Masukin [hostname dns](#cara-memilih-dns-yang-tepat) di kolom DNS tersebut.
+2. Masukkan [hostname dns](#cara-memilih-dns-yang-tepat) di kolom DNS tersebut.
 
 #### Browser berbabis Firefox:
 1. **Settings** > **Network Settings**  
-2. Masukin [hostname dns](#cara-memilih-dns-yang-tepat) di kolom DNS tersebut.
+2. Masukkan [hostname dns](#cara-memilih-dns-yang-tepat) di kolom DNS tersebut.
 
 #### <ins><b>Bagaimana cara tau DNS-nya berhasil?</b></ins>  
-Pergi ke situs [DNSLeakTest](https://dnsleaktest.com) atau [BrowserLeaks](https://browserleaks.com/dns) untuk mengeteskan.  
+Pergi ke situs [DNSLeakTest](https://dnsleaktest.com) atau [BrowserLeaks](https://browserleaks.com/dns) untuk mengetes.  
 Jika DNS ISP masih muncul daripada DNS yang sudah diubah, silahkan download [DNSCrypt](https://dnscrypt.info) atau [SimpleDNSCrypt](https://simplednscrypt.org).
 
 ## Jenis Aplikasi untuk menghilangkan DPI[🔝](#daftar-isi)
-Untuk sekarang, hanya banyak [ISP](#cara-memilih-isp-yang-tidak-ketat) blokirnya itu dengan menggunakan Deep Packet Inspection (DPI). 
+Untuk sekarang, hanya banyak [ISP](#cara-memilih-isp-yang-tidak-ketat) yang menggunakan Deep Packet Inspection (DPI) untuk memblokir. 
 
 Maka itu, DPI bisa dihilangkan dengan mudah dengan aplikasi dibawah ini:
 
@@ -416,17 +416,17 @@ Maka itu, DPI bisa dihilangkan dengan mudah dengan aplikasi dibawah ini:
 > Jangan lupa untuk menggantikan [DNS](#jenis-aplikasi-dns) terlebih dahulu atau menggunakan [Hosts file](#datar-isi-hosts-file) apabila [ISP](#cara-memilih-isp-yang-tidak-ketat) yang tidak ketat juga menggunakan DNS untuk pemblokiran tersebut.
 
 > ℹ️ **Info**  
-> KominFudge juga menyediakan config untuk Aplikasi & ISP di folder, ada [disini](/dpi-circumvention-config).
+> KominFudge juga menyediakan config untuk Aplikasi & ISP di folder; ada [di sini](/dpi-circumvention-config).
 
 
 1. [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) [Windows]  
 <em>Aplikasi CLI untuk hilangkan DPI.</em>
 
 2. [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel) [Windows, macOS, Linux]  
-<em>Aplikasi GUI untuk hilangkan DPI dengan yang mudah.</em>
+<em>Aplikasi GUI untuk menghilangkan DPI dengan mudah.</em>
 
 3. [PowerTunnel](https://github.com/krlvm/PowerTunnel) [Windows, macOS, Linux, [Android](https://github.com/krlvm/PowerTunnel-Android)]  
-<em>Aplikasi GUI untuk hilangkan DPI dengan banyak fitur.</em>
+<em>Aplikasi GUI untuk menghilangkan DPI dengan banyak fitur.</em>
 
 4. [SNI-Mask](https://github.com/macronut/SNI-Mask) [Windows]  
 <em>Proxy untuk menghilangkan DPI.</em>
@@ -466,19 +466,19 @@ sudo iptables -A INPUT -p tcp -m string --string "Location: http://lamanlabuh.ad
 sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL RST,ACK -j DROP
 ```
 
-*Gunakan firewall-cmd untuk distro yang menggunakan firewalld, seperti Fedora dan OpenSUSE di terminal. Tetapi perintah diatas tidak akan bekerja apabila ISP juga mengirim paket TCP RST ke server (daftar ISP bisa dilihat di kolom mengirim **TCP RST** ke server pada tabel diatas).*
+*Gunakan firewall-cmd untuk distro yang menggunakan firewalld, seperti Fedora dan OpenSUSE di terminal. Tetapi perintah di atas tidak akan bekerja apabila ISP juga mengirim paket TCP RST ke server (daftar ISP bisa dilihat di kolom mengirim **TCP RST** ke server pada tabel di atas).*
 
 ## Trik untuk melewati DPI memakai router[🔝](#daftar-isi)
 
 #### <ins>OpenWRT</ins>
-Silahkan ikut tutorial pada [tersebut](https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md).
+Silakan ikut tutorial pada [tersebut](https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md).
 
 ### <ins>MikroTik</ins>
-Silahkan ikut tutorial pada [tersebut](https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md).
+Silakan ikut tutorial pada [tersebut](https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md).
 
 ## Daftar isi hosts file[🔝](#navigasi)
 Hosts file *(atau File hosts)* tidak terlalu payah menjelaskan ini.
-Daftar Isi host file untuk orang yang memahami tersebut.
+Daftar isi host file untuk orang yang memahami tersebut.
 
 | List | Alternatif |
 | :---: | :---: |
@@ -502,18 +502,18 @@ Filenya sudah ada. Sekarang, apalagi yang harus dilakukan?
 ### Android
 
 #### Perangkat yang sudah di ROOT:
-1. Salinkan teks didalam hosts file yang kamu pilih.  
+1. Salinkan teks di dalam hosts file yang kamu pilih.  
 2. Buka File Explorer dan pergi ke `/system/etc`.  
 3. Tempelkan teks ke file **hosts**.
 
 #### Perangkat yang belum di ROOT:
-1. Salin teks didalam hosts file yang kamu pilih.  
+1. Salin teks di dalam hosts file yang kamu pilih.  
 2. Buatkan file dan tempelkan teksnya di dalam file tersebut.  
 3. Pasangkan [Virtual Hosts](https://github.com/x-falcon/Virtual-Hosts) atau [Host Go](https://play.google.com/store/apps/details?id=dns.hosts.server.change).  
 4. Lalu, pencet **Select Host File** atau **Import HOSTS file** dan klik file yang kamu sudah buat.
 
 ## Memilih VPN yang aman[🔝](#daftar-isi)
-Cara yang untuk melewati oleh blokir apabila cara diatas tidak bisa. *Tapi, jangan download VPN yang tidak aman & terpercaya!*  
+Cara yang untuk melewati oleh blokir apabila cara di atas tidak *Tapi, jangan load VPN yang tidak aman & terpercaya!*  
 Coba lihat VPN yang aman dan lebih baik dipake, daripada vpn yang tidak terpercaya ada di bawah ini:
 
 | Nama | Positif | Negatif | Server |
@@ -526,16 +526,16 @@ Coba lihat VPN yang aman dan lebih baik dipake, daripada vpn yang tidak terperca
 | [OVPN](https://ovpn.com) | **Aman** | Berbayar | 102 |
 
 ### VPN untuk para Pengguna Tingkat Lanjut[🔝](#daftar-isi)
-VPN di bagian ini memerlukan konfigurasi, jika hanya ingin VPN yang di luar kotak, silahkan abaikan di bawah ini.
+VPN di bagian ini memerlukan konfigurasi. Jika hanya ingin VPN yang di luar kotak, silakan abaikan di bawah ini.
 
 | Nama | Deskripsi |
 | :---: | :---: |
 | [OpenVPN](https://openvpn.net) | Sistem VPN yang mengimplementasikan teknik-teknik untuk membuat koneksi arah-ke-arah atau situs-ke-situs yang aman |
 | [Wireguard](https://wireguard.com) | Seperti OpenVPN |
-| [Softether](https://softether.org) | Seperti OpenVPN. Tapi, hanya ada server yang terbatas(?) |
+| [Softether](https://softether.org) | Seperti OpenVPN. Tapi, hanya ada server yang terbataas (?) |
 
 ## Jenis Aplikasi Tor[🔝](#daftar-isi)
-Ini adalah bagian yang ekstrim dengan memakai Tor ada di bawah ini.
+Ini adalah bagian yang ekstrem dengan memakai Tor, ada di bawah ini.
 
 1. [Tor Browser](https://www.torproject.org) [Windows, macOS, Linux, Android]  
 <em>Resmi Browser Tor.</em>  
